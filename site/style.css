@@ -1,4 +1,5 @@
 body{
+	background-color: black;
 	font-size: 130%;
 	margin: 0px;
 	 font-family: 'PT Serif', serif;
@@ -6,20 +7,21 @@ body{
 
 }
 .box{
-	    background: url("https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png") ;
-        	
+	    background: url("https://www.tiitsolutions.com/wp-content/uploads/2018/10/major-mobile-app-development-trends.png");
+	    background-repeat: no-repeat;
+        background-position: left center;
+        border-radius: 25px
+        position: relative;
+        top: -20px;		
   		width: 1600px;
   		border-radius: 25px;
-  	    position: relative;
-  	    left: 150px;
+  	    margin-top: 100px;
   		margin-left: 150px;
-  	    margin: auto;
   	    padding-left: 30px;
   	    padding-bottom: 175px;
   	    padding-top: 30px;  		
-  		margin-top: 50px;
-  		clear: both;
-  		margin-bottom: 50px;
+  		margin-bottom: 30px;
+  		height: 700px;
   	    
   	}
   	/*.box2{
@@ -47,44 +49,41 @@ body{
   		text-align: center;
   		color: #ff988d;
   		margin-top: 70px;
+  		margin-bottom: 30px;
 
 
   	}
   	footer{
 
-  		color: black;
+  		color: white;
   		font-size: 16px;
   		text-align: center;
   		position: relative;
   		top: 50px;
     }
-    ol{
-
+    p{
     	color: white;
-    	font-size: 20px;
-    	
+    	font-size: 40px;
+    	font-transform: uppercase;
+        font-family: 'Lobster', cursive,sans-serif;
     }
-    li a{
-    	margin-top: 1px;
-    	margin-bottom: 1px;
-        text-decoration: none;
-        color: white;
 
-    }
-.boxer1{
-	background-color: #203647;
-	float: left;
-	width: 950px;
-	height: 900px;
-	
-
-}
 .boxer2{
-	background-color: red;
-	position: relative;
+	background: rgb(2,0,36);
+background: linear-gradient(153deg, rgba(2,0,36,1) 0%, rgba(4,3,63,1) 11%, rgba(6,5,85,1) 20%, rgba(9,9,121,1) 35%, rgba(3,153,216,1) 49%, rgba(0,212,255,1) 100%);
+
+	padding-top: 10px;
 	top: 60px;
 	border-radius: 25px;
 	width: 1900px;
 	height: 900px;
 	
+}
+.box3{
+     width: 500px;
+     height: 500px;
+     position: relative;
+     top: 130px;
+     left: 1100px;
+
 }
